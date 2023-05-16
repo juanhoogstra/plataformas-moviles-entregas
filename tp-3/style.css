@@ -16,8 +16,8 @@ p.parrafo{
     color: #933;
 }
 
-p.fuente.parrafo{
-    outline: 1px solid #333 
+a{
+    outline: 1px solid #333 !important 
 }
 
 body p.fuente.parrafo:last-of-type{
