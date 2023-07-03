@@ -1,0 +1,46 @@
+@media(main-width: 400px){ 
+#body{
+    background-color: #234;
+}
+    
+}
+
+@media(max-width: 800px){
+h1{
+    text-align: center;
+}
+    
+}
+
+@media screen {
+article{
+    max-width: 50ch;
+    }
+}
+
+@media screen {
+h1{
+    min-width: 200px;
+}
+    
+}
+
+@media print {
+article{
+    font-family: sans-serif;
+}
+    
+}
+
+@media screen {
+h1{
+    color: #111 !important;
+    background-color: #ddd;
+}
+}
+@media screen {
+body{
+    color: #111 !important;
+    background-color: #ddd !important;
+}
+}
