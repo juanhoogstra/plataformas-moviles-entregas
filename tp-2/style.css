@@ -1,0 +1,73 @@
+body {
+    background-color: #222;
+    color: #ee6;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #eee;
+}
+
+strong {
+    border-bottom: 1px solid #fff;
+}
+
+.the-force {
+    background-color: #444;
+    font-weight: bold;
+}
+
+.light-side {
+    color: #66f;
+}
+
+.dark-side {
+    color: #f33;
+}
+
+#og-trilogy {
+    list-style-type: circle;
+}
+
+ul:nth-of-type(2) {
+    padding-left: 20px;
+}
+
+/ul:nth-of-type(3) li:last-child {
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+p:first-of-type::first-line {
+    color: #efe;
+}
+
+h1:hover {
+    color: rgb(0, 0, 255);
+}
+
+a:visited {
+    color: gray;
+}
+
+a[href=""] {
+    font-style: italic;
+}
+
+ul:nth-of-type(odd) li {
+    background-color: #111;
+}
+
+ul:nth-of-type(even) li {
+    background-color: #333;
+}
